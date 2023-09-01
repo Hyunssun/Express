@@ -29,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <input
+        placeholder="input"
         onChange={(e: any) => {
           setState({ ...state, input: e.target.value });
         }}
